@@ -8,63 +8,62 @@
 }
 
 body{
-    /* width: 100%;
-    height: auto; */
+    background: linear-gradient(180deg, #FFFFFF 0%, #F0F1FF 100%) no-repeat;
+    height: auto;    
 }
 
-/* header */
+/* HEADER */
 
 header{
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 1rem;
+    margin-left: 11.51%;
+    margin-right: 11.51%;
 }
 
-.text-skilled{    
-    font-size: 36px;
-    line-height: 45px;
+.header-text{
+    font-weight: 800;
+    font-size: 36px;    
     color: #13183F;
 }
 
-.photo-btn{
-    display: block;
+.header-btn{
     width: 167px;
     height: 56px;
     background: #13183F;
     border-radius: 28px;
 
     font-weight: 700;
-    font-size: 18px;
-    color: #FFFFFF;    
+    font-size: 18px;    
+    color: #FFFFFF;
 }
 
-.photo-btn:hover{
+.header-btn:hover{
     background: #666CA3;
     cursor: pointer;
 }
 
+/* SECTION ONE */
 
-
-/* section one */
-
-
-.section-one{    
-    margin-left: 8.72vh;    
+.section-one{   
     display: flex;
-}
-
-.container-skilled{
-    widht: 50%;
+    margin-left: 11.51%;
+    margin-top: 172px;
     border: solid yellow;
 }
 
-.max-skill{
+.section-one-info{
+    width: 50%;
+    border: solid yellow;
+}
+
+.info-heading{
+    font-weight: 800;
     font-size: 56px;
     line-height: 71px;
     color: #13183F;
-    margin: 1rem;
-    margin-top: 2rem;
 }
 
 .info-text{
@@ -75,7 +74,7 @@ header{
     margin-top: 29px;
 }
 
-.get-started-btn{
+.info-btn{
     width: 167px;
     height: 63px;
     background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
@@ -87,124 +86,16 @@ header{
     color: #FFFFFF;
 }
 
-.get-started-btn:hover{
+.info-btn:hover{
     background: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
     cursor: pointer;
 }
 
-.container-photo{
-    background: url(img/image-hero-desktop.png) no-repeat center;   
-    border: solid yellow;
-    height: 50vh;
-    width:100%;
-    margin: auto;
-}
 
-
-
-
-/* section two */
-
-.section-two{
-    /* display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: 8.72vh;
-    flex-wrap: wrap;
-    background: linear-gradient(180deg, #FFFFFF 0%, #F0F1FF 100%); */
-}
-
-.card-items{
-    Width: 350px;
-    Height: 322px;
-    border: solid yellow;
-    border-radius: 15px;
-    display: inline-block;
-}
-
-.item-1{
-    font-weight: 800;
-    font-size: 32px;
-    line-height: 40px;
-    color: #FFFFFF;
-    display: inline-block;
-    background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);    
-    text-align: center;
-}
-
-.icon-box{
-    display: flex;;
-    width: 56px;
-    height: 56px;
-    background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
-    border-radius: 50%;
-    justify-content: center;
-    align-items: center;    
-}
-
-.icons{
-    Width: 22.57px;
-    Height: 24px;
-}
-
-.item-header{
-    font-weight: 800;
-    font-size: 24px;
-    color: #13183F;
-}
-
-.item-text{
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 28px;
-    color: #83869A;
-}
-
-.item-link{
-    font-weight: 700;
-    font-size: 18px;
-    color: #F74780;
-    text-decoration: none;
-}
-
-.item-link:hover{
-    color: #FFA7C3;
-}
-
-/* footer */
-
-footer{
-    display: flex;
+.section-one-img{
     width: 100%;
-    height: 120px;
-    background: #13183F;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.footer-text{
-    font-weight: 800;
-    font-size: 36px;
-    color: #FFFFFF;
-    margin-left: 165.79px;
-}
-
-.footer-btn{
-    height: 56px;
-    width: 167px;
-    border-radius: 28px;
-    background: linear-gradient(180deg, #4851FF -54.32%, #F02AA6 100%);
-    margin-right: 165.79px;
-
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 28px;
-    color: #FFFFFF;
-}
-
-.footer-btn:hover{
-    background: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), linear-gradient(180deg, #4851FF -54.32%, #F02AA6 100%);
-    cursor: pointer;
-}
-
-
+    height: 875px;
+    background-image: url(img/image-hero-desktop.png);
+    background-repeat: no-repeat;
+    background-position: right -10vh bottom 7vh;   
+} 
