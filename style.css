@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Plus Jakarta Sans';
+    border: 0;
+}
+
+body{
+    background: linear-gradient(180deg, #FFFFFF 0%, #F0F1FF 100%) no-repeat;
+    height: auto;    
+}
+
+/* HEADER */
+
+header{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 11.51%;
+    margin-right: 11.51%;
+}
+
+.header-text{
+    font-weight: 800;
+    font-size: 36px;    
+    color: #13183F;
+}
+
+.header-btn{
+    width: 167px;
+    height: 56px;
+    background: #13183F;
+    border-radius: 28px;
+
+    font-weight: 700;
+    font-size: 18px;    
+    color: #FFFFFF;
+}
+
+.header-btn:hover{
+    background: #666CA3;
+    cursor: pointer;
+}
+
+/* SECTION ONE */
+
+.section-one{   
+    display: flex;
+    margin-left: 11.51%;
+    margin-top: 172px;
+    border: solid yellow;
+}
+
+.section-one-info{
+    width: 50%;
+    border: solid yellow;
+}
+
+.info-heading{
+    font-weight: 800;
+    font-size: 56px;
+    line-height: 71px;
+    color: #13183F;
+}
+
+.info-text{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: #83869A;
+    margin-top: 29px;
+}
+
+.info-btn{
+    width: 167px;
+    height: 63px;
+    background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+    border-radius: 31.5px;
+    margin-top: 40px;
+
+    font-weight: 700;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+.info-btn:hover{
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+    cursor: pointer;
+}
+
+
+.section-one-img{
+    width: 100%;
+    height: 875px;
+    background-image: url(img/image-hero-desktop.png);
+    background-repeat: no-repeat;
+    background-position: right -10vh bottom 7vh;   
+} 
