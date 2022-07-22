@@ -55,7 +55,8 @@ header{
 }
 
 .section-one-info{
-    width: 30%;   
+    width: 30%;
+    margin-right: 5px;;   
 }
 
 .info-heading{
@@ -96,7 +97,7 @@ header{
     height: 875px;
     background-image: url(img/image-hero-desktop.png);
     background-repeat: no-repeat;
-    background-position: right -10vh bottom 7vh;   
+    background-position: right -30vh bottom 7vh;   
 } 
 
 /* SECTION TWO */
