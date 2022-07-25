@@ -51,12 +51,13 @@ header{
 .section-one{   
     display: flex;
     margin-left: 11.51%;
-    margin-top: 172px;    
+        
 }
 
 .section-one-info{
     width: 30%;
-    margin-right: 5px;;   
+    margin-right: 5px;
+    margin-top: 172px;   
 }
 
 .info-heading{
