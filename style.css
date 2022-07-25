@@ -5,6 +5,7 @@
     padding: 0;
     font-family: 'Plus Jakarta Sans';
     border: 0;
+    /* outline: solid red; */
 }
 
 body{
@@ -217,4 +218,47 @@ footer{
 .footer-btn:hover{
     background: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), linear-gradient(180deg, #4851FF -54.32%, #F02AA6 100%);
     cursor: pointer;
+}
+
+/* TABLET */
+
+@media (min-width: 375px) {
+
+    /* SECTION ONE */
+
+    .section-one{
+        flex-direction: column;
+        width: max-content;
+        
+    }
+
+    .section-one-info{
+        margin-top: 38px;
+    }
+
+    .section-one-img{        
+        background-image: url(img/image-hero-mobile.webp);
+        background-repeat: no-repeat;
+        background-position: right 65vh bottom 49vh;   
+    } 
+
+    .info-heading{
+        font-size: 40px;
+    }
+
+    .section-two{
+        flex-direction: column;
+    }
+   
+    .card-items{
+        width: 75vw;       
+    }
+
+    .item1-text{
+        margin: 24px;       
+        height: 120px;        
+    }
+
+
+    
 }
