@@ -222,7 +222,7 @@ footer{
 
 /* TABLET */
 
-@media (min-width: 320px) {
+@media only screen and (min-width: 320px) {
 
     /* SECTION ONE */
 
