@@ -222,7 +222,7 @@ footer{
 
 /* TABLET */
 
-@media (min-width: 375px) {
+@media (min-width: 320px) {
 
     /* SECTION ONE */
 
@@ -239,7 +239,8 @@ footer{
     .section-one-img{        
         background-image: url(img/image-hero-mobile.webp);
         background-repeat: no-repeat;
-        background-position: right 65vh bottom 49vh;   
+        background-position: right 64vh bottom -12vh;
+        height: 320px;   
     } 
 
     .info-heading{
@@ -257,6 +258,10 @@ footer{
     .item1-text{
         margin: 24px;       
         height: 120px;        
+    }
+
+    .item-link{
+        margin-bottom: 32px;
     }
 
 
