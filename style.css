@@ -220,9 +220,9 @@ footer{
     cursor: pointer;
 }
 
-/* TABLET */
+/* MOBILE */
 
-@media only screen and (min-width: 320px) {
+@media (max-width: 320px) {
 
     /* SECTION ONE */
 
