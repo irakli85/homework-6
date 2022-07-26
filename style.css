@@ -246,8 +246,9 @@ footer{
     .section-one-img{        
         width: 50%;        
         background: url(img/image-hero-tablet.png);
-        background-position: right 420px bottom -87px;
-        /* outline: solid red; */
+        background-position: right -274px bottom -91px;
+        background-repeat: no-repeat;
+        /* outline: solid ed; */
         margin:0;
         height: 100%;        
     }
