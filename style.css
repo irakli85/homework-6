@@ -23,8 +23,8 @@ header{
     height: 48px;
     align-items: center;
     justify-content: space-between;
-    padding-left: 4.26%;
-    padding-right: 4.26%;
+    margin-left: 4.26%;
+    margin-right: 4.26%;
     padding-top: 16px;           
 }
 
@@ -96,13 +96,11 @@ header{
 }
 
 .section-one-img{
-    /* width: 277px; */
-    width: 90.68%;
+    width: 100%;
+    background: url(/img/image-hero-mobile.png);
+    background-size: cover;
     height: 277px;
-    margin-left: 4.26%;
-    margin-right: 4.26%;
-    margin-top: 46px;
-    /* outline: solid red; */
+    margin-top: 70px;
 } 
 
 
@@ -219,3 +217,56 @@ footer{
 }
 
 
+
+
+/* TABLET */
+@media screen and (min-width: 768px){
+
+    header{       
+        margin-left: 5.07%;
+        margin-right: 5.07%;
+        padding-top: 24px;
+        /* outline: solid red;                  */
+    }
+
+    .section-one{
+        /* outline: solid red; */
+        flex-direction: row;
+        /* outline: solid red; */
+        height: 420px;
+        margin-right: 0;
+    }
+
+    .section-one-info{
+        width: 50%;       
+        /* outline: solid red; */
+    }
+
+   
+    .section-one-img{        
+        width: 50%;        
+        background: url(img/image-hero-tablet.png);
+        background-position: right 420px bottom -87px;
+        /* outline: solid red; */
+        margin:0;
+        height: 100%;        
+    }
+
+/* SECTION TWO */
+
+    .section-two{
+        display: flex;
+        flex-direction: row;        
+        flex-wrap: wrap;
+        margin-left: 5.07%;
+        margin-right: 5.07%;
+        width:100%;
+    }
+
+    .card-items{    
+        /* flex-basis: 45%; */
+    }
+    
+    
+
+}
