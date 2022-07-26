@@ -23,9 +23,9 @@ header{
     height: 48px;
     align-items: center;
     justify-content: space-between;
-    margin-left: 4.26%;
-    margin-right: 4.26%;
-    margin-top: 16px;           
+    padding-left: 4.26%;
+    padding-right: 4.26%;
+    padding-top: 16px;           
 }
 
 
@@ -131,14 +131,91 @@ header{
     /* outline: solid red; */
 }
 
-.item-1{    
+.first-item{    
     background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
     border-radius: 15px;        
     height: 120px;
-    padding-left: 28px;
+    padding-left: 8.16%;
     padding-top: 24px;
     font-weight: 800;
     font-size: 24px;
     line-height: 32px;
     color: #FFFFFF;
 }
+
+.icon-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 56px;
+    width: 56px;
+    background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+    border-radius: 50%;    
+    margin-top: -25px;
+}
+
+.item-header{
+    font-weight: 800;
+    font-size: 20px;    
+    color: #13183F;    
+    margin-top: 24px;
+}
+
+.item-text{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    color: #83869A;    
+    margin-top: 16px;
+}
+
+.item-link{
+    margin-top: 24px;    
+    /* margin-bottom: 32px; */
+    font-weight: 700;
+    font-size: 18px;
+    color: #F74780;
+    text-decoration: none;
+}
+
+.item-link:hover{
+    color: #FFA7C3;    
+}
+
+
+/* FOOTER */
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 4.26%;
+    padding-right: 4.26%;    
+    height: 120px;
+    background: #13183F;
+    margin-top: 80px;    
+}
+
+.footer-text{
+    font-weight: 800;
+    font-size: 28px;    
+    color: #ffffff;
+}
+
+.footer-btn{
+    width: 140px;
+    height: 48px;
+    background: linear-gradient(180deg, #4851FF -54.32%, #F02AA6 100%);
+    border-radius: 28px;   
+
+    font-weight: 700;
+    font-size: 16px;    
+    color: #FFFFFF;
+}
+
+.footer-btn:hover{
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), linear-gradient(180deg, #4851FF -54.32%, #F02AA6 100%);
+    cursor: pointer;
+}
+
+
