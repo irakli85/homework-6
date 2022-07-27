@@ -286,8 +286,84 @@ footer{
             padding-top: 0;
             justify-content: center;        
             
-        }
+        } 
     
+
+}
+
+
+/* DESKTOP */
+@media screen and (min-width: 1440px){
+
+   
+    /* HEADER */
     
+    header{
+        margin-left: 11.51%;
+        margin-right: 11.51%;
+        /* outline: solid red; */
+    }
+
+    .header-text{
+        font-size: 36px;
+    }
+
+    .header-btn{
+        width: 167px;
+        height: 56px;        
+        font-size: 18px;
+    }
+
+
+    /* SECTION ONE - 1440*/
+
+    .section-one{
+        margin-left: 11.51%;
+        margin-top: 0;
+        /* outline: solid red; */
+        height: 757px;
+    }
+
+    .section-one-info{        
+        /* outline: solid red; */
+        width: 40%;        
+    }
+
+    .info-heading{
+        margin-top: 186px;
+        font-size: 56px;
+        line-height: 71px;       
+        /* outline: solid red; */
+    }
+
+    .info-text{
+        font-size: 18px;
+        line-height: 28px;
+        margin-top: 29px;
+    }
+
+    .info-btn{
+        height: 63px;
+        font-size: 18px;
+    }
+
+    .section-one-img{
+        width:60%;
+        /* outline: solid red; */
+        background: url(./img/image-hero-desktop.png);
+        background-position: right -316px bottom 18px;
+        background-repeat: no-repeat;
+        overflow: visible;
+    }
+
+    /* SECTION TWO - 1440 */
+
+    .section-two{
+        margin-left: 11.51%;
+    }
+
+    .card-items{
+        flex-basis: 25.33%;
+    }
 
 }
