@@ -55,7 +55,7 @@ header{
 
 .section-one{   
     display: flex;
-    flex-direction: column;
+    flex-direction: column;    
     margin-left: 4.26%;
     margin-right: 4.26%;
     margin-top: 38px;              
@@ -102,6 +102,9 @@ header{
     height: 277px;
     margin-top: 70px;
 } 
+
+
+
 
 
             /* SECTION TWO */
@@ -248,10 +251,10 @@ footer{
         background: url(./img/image-hero-tablet.png);
         background-position: right -274px bottom -91px;
         background-repeat: no-repeat;
-        /* outline: solid ed; */
-        margin:0;
+        /* outline: solid red; */
+        margin: 0;
         height: 100%;        
-    }
+    } 
 
 /* SECTION TWO */
 
@@ -365,6 +368,19 @@ footer{
     .card-items{
         flex-basis: 25.33%;
         height: 322px;
+    }
+
+    .item-header{
+        font-size: 24px;
+    }
+
+    .item-text{
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .item-link{
+        font-size: 18px;
     }
 
 }
