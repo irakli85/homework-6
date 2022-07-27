@@ -97,7 +97,7 @@ header{
 
 .section-one-img{
     width: 100%;
-    background: url(/img/image-hero-mobile.png);
+    background: url(./img/image-hero-mobile.png);
     background-size: cover;
     height: 277px;
     margin-top: 70px;
