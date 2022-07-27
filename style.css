@@ -10,7 +10,7 @@
 
 body{
     background: linear-gradient(180deg, #FFFFFF 0%, #F0F1FF 100%) no-repeat;
-    width: 100vw;
+    max-width: 100vw;
     height: auto;    
 }
 
@@ -364,6 +364,7 @@ footer{
 
     .card-items{
         flex-basis: 25.33%;
+        height: 322px;
     }
 
 }
