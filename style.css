@@ -371,6 +371,10 @@ footer{
     }
 
     /* FOOTER - 1440 px */
+    footer{
+        padding-left: 11.51%;
+        padding-right: 11.51%;
+    }
 
     .footer-btn{
         font-size: 18px;
