@@ -22,8 +22,8 @@ header{
     height: 48px;
     align-items: center;
     justify-content: space-between;
-    margin-left: 4.26%;
-    margin-right: 4.26%;
+    padding-left: 4.26%;
+    padding-right: 4.26%;
     padding-top: 16px;           
 }
 
@@ -218,8 +218,8 @@ footer{
     /* HEADER - 768px */
 
     header{       
-        margin-left: 5.07%;
-        margin-right: 5.07%;
+        padding-left: 5.07%;
+        padding-right: 5.07%;
         padding-top: 24px;        
     }
 
@@ -289,8 +289,8 @@ footer{
     /* HEADER - 1440px */
     
     header{
-        margin-left: 11.51%;
-        margin-right: 11.51%;        
+        padding-left: 11.51%;
+        padding-right: 11.51%;        
     }
 
     .header-text{
@@ -374,6 +374,14 @@ footer{
 
     .footer-btn{
         font-size: 18px;
+    }
+
+    footer{
+        outline: solid red;
+    }
+
+    header{
+        outline: solid red;
     }
 
 }
