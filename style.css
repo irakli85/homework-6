@@ -378,6 +378,10 @@ footer{
 
     .footer-btn{
         font-size: 18px;
-    }  
+    }
+    
+    .footer-text{
+        font-size: 36px;
+    }
 
 }
