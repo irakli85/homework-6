@@ -374,14 +374,6 @@ footer{
 
     .footer-btn{
         font-size: 18px;
-    }
-
-    footer{
-        outline: solid red;
-    }
-
-    header{
-        outline: solid red;
-    }
+    }  
 
 }
