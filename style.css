@@ -5,7 +5,6 @@
     padding: 0;
     font-family: 'Plus Jakarta Sans';
     border: 0;
-    /* outline: solid red; */
 }
 
 body{
@@ -16,7 +15,7 @@ body{
 
 /* MOBILE */
 
-            /* HEADER */
+            /* HEADER 375px */
 
 header{
     display: flex;    
@@ -51,7 +50,7 @@ header{
 }
 
 
-        /* SECTION ONE */
+        /* SECTION ONE - 375px */
 
 .section-one{   
     display: flex;
@@ -66,7 +65,6 @@ header{
     font-size: 40px;
     line-height: 50px;
     color: #13183F;
-    /* outline: solid red; */
 }
 
 .info-text{
@@ -75,7 +73,6 @@ header{
     line-height: 26px;
     color: #83869A;
     margin-top: 26px;
-    /* outline: solid red; */
 }
 
 .info-btn{
@@ -96,7 +93,6 @@ header{
 }
 
 .section-one-img{
-    /* width: 100%; */
     width: 253px;
     background: url(./img/image-hero-mobile.png);
     background-size: cover;
@@ -104,11 +100,7 @@ header{
     margin-top: 70px;
 } 
 
-
-
-
-
-            /* SECTION TWO */
+            /* SECTION TWO - 375 px*/
 
 .section-two{
     display: flex;
@@ -116,7 +108,6 @@ header{
     margin-left: 4.26%;
     margin-right: 4.26%;
     margin-top: 42px;
-    /* outline: solid red; */
 }
 
 .card-items{
@@ -130,7 +121,6 @@ header{
     background: #FFFFFF;
     box-shadow: 0px 25px 50px rgba(6, 22, 141, 0.0442381);
     border-radius: 15px;
-    /* outline: solid red; */
 }
 
 .first-item{    
@@ -173,7 +163,6 @@ header{
 
 .item-link{
     margin-top: 24px;    
-    /* margin-bottom: 32px; */
     font-weight: 700;
     font-size: 18px;
     color: #F74780;
@@ -185,7 +174,7 @@ header{
 }
 
 
-/* FOOTER */
+/* FOOTER - 375 px*/
 
 footer{
     display: flex;
@@ -226,24 +215,24 @@ footer{
 /* TABLET */
 @media screen and (min-width: 768px){
 
+    /* HEADER - 768px */
+
     header{       
         margin-left: 5.07%;
         margin-right: 5.07%;
-        padding-top: 24px;
-        /* outline: solid red;                  */
+        padding-top: 24px;        
     }
 
     .section-one{
-        /* outline: solid red; */
-        flex-direction: row;
-        /* outline: solid red; */
+        flex-direction: row;        
         height: 420px;
         margin-right: 0;
     }
 
+    /* SECTION ONE - 768 px */
+
     .section-one-info{
-        width: 50%;       
-        /* outline: solid red; */
+        width: 50%;        
     }
 
    
@@ -252,12 +241,11 @@ footer{
         background: url(./img/image-hero-tablet.png);
         background-position: right -274px bottom -91px;
         background-repeat: no-repeat;
-        /* outline: solid red; */
         margin: 0;
         height: 100%;        
     } 
 
-/* SECTION TWO */
+/* SECTION TWO - 768 px */
 
     .section-two{
         display: flex;
@@ -265,7 +253,6 @@ footer{
         flex-wrap: wrap;
         margin-left: 5.07%;
         margin-right: 5.07%;        
-        /* outline: solid red; */
     }
 
     
@@ -279,8 +266,7 @@ footer{
             flex-basis: 40%;
             background: #FFFFFF;
             box-shadow: 0px 25px 50px rgba(6, 22, 141, 0.0442381);
-            border-radius: 15px;
-            /* outline: solid red; */
+            border-radius: 15px;            
         }
 
         .first-item{    
@@ -300,12 +286,11 @@ footer{
 @media screen and (min-width: 1440px){
 
    
-    /* HEADER */
+    /* HEADER - 1440px */
     
     header{
         margin-left: 11.51%;
-        margin-right: 11.51%;
-        /* outline: solid red; */
+        margin-right: 11.51%;        
     }
 
     .header-text{
@@ -319,17 +304,15 @@ footer{
     }
 
 
-    /* SECTION ONE - 1440*/
+    /* SECTION ONE - 1440px*/
 
     .section-one{
         margin-left: 11.51%;
-        margin-top: 0;
-        /* outline: solid red; */
+        margin-top: 0;        
         height: 757px;
     }
 
     .section-one-info{        
-        /* outline: solid red; */
         width: 40%;        
     }
 
@@ -337,7 +320,6 @@ footer{
         margin-top: 186px;
         font-size: 56px;
         line-height: 71px;       
-        /* outline: solid red; */
     }
 
     .info-text{
@@ -353,14 +335,13 @@ footer{
 
     .section-one-img{
         width:60%;
-        /* outline: solid red; */
         background: url(./img/image-hero-desktop.png);
         background-position: right -316px bottom 18px;
         background-repeat: no-repeat;
         overflow: visible;
     }
 
-    /* SECTION TWO - 1440 */
+    /* SECTION TWO - 1440px */
 
     .section-two{
         margin-left: 11.51%;
