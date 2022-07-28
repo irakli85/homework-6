@@ -7,7 +7,7 @@
     border: 0;
 }
 
-body{
+body{    
     background: linear-gradient(180deg, #FFFFFF 0%, #F0F1FF 100%) no-repeat;
     max-width: 100vw;
     height: auto;    
@@ -290,7 +290,7 @@ footer{
     
     header{
         padding-left: 11.51%;
-        padding-right: 11.51%;        
+        padding-right: 11.51%;               
     }
 
     .header-text{
